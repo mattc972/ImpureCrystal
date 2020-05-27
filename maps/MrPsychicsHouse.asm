@@ -9,7 +9,7 @@ MrPsychicsHouse_MapScripts:
 MrPsychic:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TM29_PSYCHIC
+	checkitem TM_PSYCHIC_M
 	iftrue .AlreadyGotItem
 	writetext MrPsychicText1
 	promptbutton
