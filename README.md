@@ -44,3 +44,67 @@ Other disassembly projects:
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
 [travis]: https://travis-ci.org/pret/pokecrystal
 [travis-badge]: https://travis-ci.org/pret/pokecrystal.svg?branch=master
+
+Debug Space:
+
+Removed's
+
+Beat Up 		
+Submission		
+Vital Throw		
+Detect			
+Fissure			
+Poison Sting	
+Bubble			
+Barrage			(Replace with Bullet Seed) (Replace All References to Barrage To Bullet Seed)
+Comet Punch		(Replace with Arm Thrust) (Replace All References to Comet Punch to Arm Thrust)
+Constrict		
+Egg Bomb		(Replace with Seed Bomb) (Replace all references to Egg Bomb to Seed Bomb)
+Horn Drill		
+Mega Kick		
+Mega Punch		
+Wrap			Replace all references to Bind (wrap is a more specific bind)
+Guillotine		
+Slam			Update all references of Slam to Body Slam
+Razor Wind		
+Vicegrip
+Rock Smash		Replace with Brick Break
+
+Maybes
+
+Twineedle
+Leech Life
+Dragon Rage
+Spark
+Fire Spin
+Vine Whip
+Smog
+Metal Claw
+Clamp
+Disable
+Dizzy Punch
+Lovely Kiss
+Skull Bash
+Sonic Boom
+
+
+Super Necessities:
+
+Normal			(Hyper Voice, Giga Impact?)
+Grass			(Seed Bomb, Bullet Seed, Energy Ball)
+Fighting		(Focus Blast, Aura Sphere, Brick Break, Arm Thrust, Close Combat/SuperPower?)
+Fairy			(Moonblast/Dazzling Gleam, Play Rough, Disarming Voice, Draining Kiss)
+Poison			(Poison Jab)
+Ice				(Icicle Crash, Avalanche?)
+Dragon			(Dragon Pulse, Dragon Claw)
+Fire 			(Flare Blitz, Heat Wave?)
+Electric		(Wild Charge)
+Steel			(Flash Cannon)
+Water			(Aqua Tail?)
+Bug				(X-Scissor, Bug Buzz)
+Dark			(Night Slash, Dark Pulse, Dark Thrash, Nasty Plot)
+Psychic			(Zen Headbutt, Psycho Cut?)
+Ghost			(Shadow Claw)
+Rock			(Rock Tomb, Power Gem)
+Ground			(Earth Power, Bulldoze, Drill Run)
+Flying			(Air Slash, Roost?)
