@@ -49,26 +49,26 @@ Debug Space:
 
 Removed's
 
-Beat Up 		
-Submission		
-Vital Throw		
-Detect			
-Fissure			
-Poison Sting	
-Bubble			
-Barrage			(Replace with Bullet Seed) (Replace All References to Barrage To Bullet Seed)
-Comet Punch		(Replace with Arm Thrust) (Replace All References to Comet Punch to Arm Thrust)
-Constrict		
-Egg Bomb		(Replace with Seed Bomb) (Replace all references to Egg Bomb to Seed Bomb)
-Horn Drill		
-Mega Kick		
-Mega Punch		
-Wrap			Replace all references to Bind (wrap is a more specific bind)
-Guillotine		
-Slam			Update all references of Slam to Body Slam
-Razor Wind		
-Vicegrip
-Rock Smash		Replace with Brick Break
+- Beat Up 		
+- Submission		
+- Vital Throw		
+- Detect			
+- Fissure			
+- Poison Sting	
+- Bubble			
+- Barrage			(Replace with Bullet Seed) (Replace All References to Barrage To Bullet Seed)
+- Comet Punch		(Replace with Arm Thrust) (Replace All References to Comet Punch to Arm Thrust)
+- Constrict		
+- Egg Bomb		(Replace with Seed Bomb) (Replace all references to Egg Bomb to Seed Bomb)
+- Horn Drill		
+- Mega Kick		
+- Mega Punch		
+- Wrap			Replace all references to Bind (wrap is a more specific bind)
+- Guillotine		
+- Slam			Update all references of Slam to Body Slam
+- Razor Wind		
+- Vicegrip
+- Rock Smash		Replace with Brick Break
 
 Maybes
 
