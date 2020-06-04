@@ -69,6 +69,7 @@ Slam -> Body Slam\
 Razor Wind\		
 Vicegrip\
 Rock Smash -> Brick Break Field Move\
+Thrash -> Dark Thrash (Replace with Outrage)\
 \
 Maybes\
 \
@@ -89,21 +90,25 @@ Sonic Boom\
 
 Super Necessities Not Accounted For:
 
-Normal			(Hyper Voice?)\
+Normal\
 Grass			(Energy Ball)\
-Fighting		(Focus Blast, Aura Sphere, Close Combat/SuperPower?)\
+Fighting		(Focus Blast, Aura Sphere)\
 Fairy			(Moonblast/Dazzling Gleam, Play Rough, Disarming Voice, Draining Kiss)\
 Poison			(Poison Jab)\
-Ice				(Icicle Crash, Avalanche?)\
+Ice				(Icicle Crash)\
 Dragon			(Dragon Pulse, Dragon Claw)\
-Fire 			(Flare Blitz, Heat Wave?)\
+Fire 			(Flare Blitz)\
 Electric		(Wild Charge)\
 Steel			(Flash Cannon)\
-Water			(Aqua Tail?)\
+Water\
 Bug				(X-Scissor, Bug Buzz)\
-Dark			(Night Slash, Dark Pulse, Dark Thrash, Nasty Plot)\
-Psychic			(Zen Headbutt, Psycho Cut?)\
+Dark			(Night Slash, Dark Pulse, Nasty Plot)\
+Psychic			(Zen Headbutt)\
 Ghost			(Shadow Claw)\
 Rock			(Rock Tomb, Power Gem)\
 Ground			(Earth Power, Bulldoze, Drill Run)\
-Flying			(Air Slash, Roost?)\
+Flying			(Air Slash)\
+
+Maybe Adds:
+
+Hyper Voice, Close Combat/Superpower, Avalanche, Heat Wave, Aqua Tail, Psycho Cut, Roost\
