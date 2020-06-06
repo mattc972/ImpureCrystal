@@ -88,7 +88,7 @@ Lovely Kiss\
 Skull Bash\
 Sonic Boom\
 
-Super Necessities Not Accounted For:\
+Super Necessities Not Accounted For:
 
 Normal\
 Grass			(Energy Ball)\
