@@ -49,30 +49,30 @@ Debug Space:
 
 Removed's
 
-Beat Up\ 		
-Submission\		
-Vital Throw\		
-Detect\			
-Fissure\			
-Poison Sting\	
-Bubble\			
-Barrage -> Bullet Seed\
-Comet Punch -> Arm Thrust\
-Constrict\		
-Egg Bomb -> Seed Bomb\
-Horn Drill\		
-Mega Kick\
-Mega Punch\		
-Wrap -> Bind (Wrap's Stats)\
-Guillotine\		
-Slam -> Body Slam\
-Razor Wind\		
-Vicegrip\
-Rock Smash -> Brick Break Field Move\
-Thrash -> Dark Thrash (Replace with Outrage)\
-\
-Maybes\
-\
+Beat Up   		
+Submission  		
+Vital Throw  		
+Detect  			
+Fissure  			
+Poison Sting  	
+Bubble  			
+Barrage -> Bullet Seed  
+Comet Punch -> Arm Thrust  
+Constrict  		
+Egg Bomb -> Seed Bomb  
+Horn Drill  		
+Mega Kick  
+Mega Punch  		
+Wrap -> Bind (Wrap's Stats)  
+Guillotine  		
+Slam -> Body Slam  
+Razor Wind  		
+Vicegrip  
+Rock Smash -> Brick Break Field Move  
+Thrash -> Dark Thrash (Replace with Outrage)  
+
+Maybes  
+
 Twineedle\
 Leech Life\
 Dragon Rage\
