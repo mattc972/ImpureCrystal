@@ -44,3 +44,71 @@ Other disassembly projects:
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
 [travis]: https://travis-ci.org/pret/pokecrystal
 [travis-badge]: https://travis-ci.org/pret/pokecrystal.svg?branch=master
+
+Debug Space:
+
+Removed's
+
+Beat Up\
+Submission\
+Vital Throw\
+Detect\
+Fissure\
+Poison Sting\
+Bubble\
+Barrage -> Bullet Seed\
+Comet Punch -> Arm Thrust\
+Constrict\
+Egg Bomb -> Seed Bomb\
+Horn Drill\
+Mega Kick\
+Mega Punch\
+Wrap -> Bind (Wrap's Stats)\
+Guillotine\
+Slam -> Body Slam\
+Razor Wind\
+Vicegrip\
+Rock Smash -> Brick Break Field Move\
+Thrash -> Dark Thrash (Replace with Outrage)\
+\
+Maybes\
+\
+Twineedle\
+Leech Life\
+Dragon Rage\
+Spark\
+Fire Spin\
+Vine Whip\
+Smog\
+Metal Claw\
+Clamp\
+Disable\
+Dizzy Punch\
+Lovely Kiss\
+Skull Bash\
+Sonic Boom\
+
+Super Necessities Not Accounted For:
+
+Normal\
+Grass			(Energy Ball)\
+Fighting		(Focus Blast, Aura Sphere)\
+Fairy			(Moonblast/Dazzling Gleam, Play Rough, Disarming Voice, Draining Kiss)\
+Poison			(Poison Jab)\
+Ice				(Icicle Crash)\
+Dragon			(Dragon Pulse, Dragon Claw)\
+Fire 			(Flare Blitz)\
+Electric		(Wild Charge)\
+Steel			(Flash Cannon)\
+Water\
+Bug				(X-Scissor, Bug Buzz)\
+Dark			(Night Slash, Dark Pulse, Nasty Plot)\
+Psychic			(Zen Headbutt)\
+Ghost			(Shadow Claw)\
+Rock			(Rock Tomb, Power Gem)\
+Ground			(Earth Power, Bulldoze, Drill Run)\
+Flying			(Air Slash)\
+
+Maybe Adds:
+
+Hyper Voice, Close Combat/Superpower, Avalanche, Heat Wave, Aqua Tail, Psycho Cut, Roost\
