@@ -24,7 +24,7 @@ ItemDescriptions:
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
-	dw TeruSama2Desc
+	dw HandaxeDesc
 	dw HPUpDesc
 	dw ProteinDesc
 	dw IronDesc
@@ -44,7 +44,7 @@ ItemDescriptions:
 	dw SuperRepelDesc
 	dw MaxRepelDesc
 	dw DireHitDesc
-	dw TeruSama3Desc
+	dw FlashlightDesc
 	dw FreshWaterDesc
 	dw SodaPopDesc
 	dw LemonadeDesc
@@ -351,8 +351,9 @@ WaterStoneDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
 
-TeruSama2Desc:
-	db   "?@"
+HandaxeDesc:
+	db   "A handaxe for"
+    next "cutting trees.@"
 
 HPUpDesc:
 	db   "Raises the HP of"
@@ -430,8 +431,9 @@ DireHitDesc:
 	db   "Ups critical hit"
 	next "ratio. (1 BTL)@"
 
-TeruSama3Desc:
-	db   "?@"
+FlashlightDesc:
+	db   "Lights up dark"
+    next "places like caves.@"
 
 FreshWaterDesc:
 	db   "Restores #MON"

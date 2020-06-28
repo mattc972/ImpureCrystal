@@ -594,17 +594,32 @@ OpenPartyStats:
 	ret
 
 MonMenu_Cut:
+    checkflag ENGINE_HIVEBADGE
+    iftrue .HasBadge
+ .YoinkCut
+	ld hl, yoinkCut
+	call MenuTextboxWaitButton
+	ld a, $80 
+	ret
+    
+.HasBadge
 	farcall CutFunction
 	ld a, [wFieldMoveSucceeded]
 	cp $1
 	jr nz, .Fail
 	ld b, $4
 	ld a, $2
-	ret
+    ret
+
 
 .Fail:
 	ld a, $3
 	ret
+    
+yoinkCut:
+    text "You need the"
+    line "HIVE BADGE..."
+    done
 
 MonMenu_Fly:
 	farcall FlyFunction
@@ -612,7 +627,7 @@ MonMenu_Fly:
 	cp $2
 	jr z, .Fail
 	cp $0
-	jr z, .Error
+jr z, .Error
 	farcall StubbedTrainerRankings_Fly
 	ld b, $4
 	ld a, $2
@@ -631,6 +646,15 @@ MonMenu_Fly:
 	ret
 
 MonMenu_Flash:
+    checkflag ENGINE_ZEPHYRBADGE
+    iftrue .HasBadge
+.YoinkFlash
+    ld hl, yoinkFlash
+    call MenuTextboxWaitButton
+    ld a, $80
+    ret
+    
+.HasBadge
 	farcall FlashFunction
 	ld a, [wFieldMoveSucceeded]
 	cp $1
@@ -642,6 +666,11 @@ MonMenu_Flash:
 .Fail:
 	ld a, $3
 	ret
+
+yoinkFlash:
+    text "You need the"
+    line "ZEPHYR BADGE..."
+    done
 
 MonMenu_Strength:
 	farcall StrengthFunction

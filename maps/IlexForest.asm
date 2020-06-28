@@ -349,7 +349,7 @@ IlexForestCharcoalMasterScript:
 	iftrue .AlreadyGotCut
 	writetext Text_CharcoalMasterIntro
 	promptbutton
-	verbosegiveitem HM_CUT
+    verbosegiveitem HANDAXE
 	setevent EVENT_GOT_HM01_CUT
 	writetext Text_CharcoalMasterOutro
 	waitbutton
@@ -796,17 +796,14 @@ Text_CharcoalMasterIntro:
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the CUT HM."
-	line "Teach that to a"
+	text "That's a HANDAXE."
+	line "Use it to cut down"
+	cont "small trees."
 
-	para "#MON to clear"
-	line "small trees."
-
-	para "Of course, you"
-	line "have to have the"
-
-	para "GYM BADGE from"
-	line "AZALEA to use it."
+	para "You do not need to"
+    line "have a #-MON"
+    cont "that knows CUT to"
+    cont "use the HANDAXE."
 	done
 
 Text_CharcoalMasterTalkAfter:

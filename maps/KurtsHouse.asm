@@ -70,6 +70,9 @@ Kurt1:
 	promptbutton
 	verbosegiveitem LURE_BALL
 	iffalse .NoRoomForBall
+    writetext KurtsHouseKurtSomeoneDroppedThisText
+    waitbutton
+    verbosegiveitem HM_FLASH
 	setevent EVENT_KURT_GAVE_YOU_LURE_BALL
 .GotLureBall:
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
@@ -507,6 +510,15 @@ KurtsHouseKurtHonoredToMakeBallsText:
 	para "This is all I have"
 	line "now, but take it."
 	done
+
+KurtsHouseKurtSomeoneDroppedThisText:
+    text "Say, someone left"
+    line "this in the well."
+    
+    para "I don't know what"
+    line "it is for, but you"
+    cont "should have it."
+    done
 
 KurtsHouseKurtBallsFromApricornsText:
 	text "KURT: I make BALLS"
