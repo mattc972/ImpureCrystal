@@ -180,6 +180,9 @@ ENDM
 	command supereffectivelooptext  ; ad
 	command startloop               ; ae
 	command curl                    ; af
+	command dragondance
+	command brickbreak
+	command calmmind
 
 	enum_start $fe
 	command endturn                 ; fe

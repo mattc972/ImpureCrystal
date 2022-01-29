@@ -1,0 +1,6 @@
+constants/move_constants.asm
+data/moves/moves.asm
+data/pokemon/evos_attacks.asm
+data/trainers/parties.asm
+engine/battle/effect_commands.asm
+maps/Route39Farmhouse.asm

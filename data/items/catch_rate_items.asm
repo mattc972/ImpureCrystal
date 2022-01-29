@@ -14,6 +14,6 @@ TimeCapsule_CatchRateItems:
 	db ITEM_FA, BERRY
     db TM_PSYCH_UP, BERRY
     db TM_ICE_PUNCH, BERRY
-    db TM_DETECT, BERRY
+    db TM_SHADOW_CLAW, BERRY
 	db -1,      BERRY
 	db 0 ; end

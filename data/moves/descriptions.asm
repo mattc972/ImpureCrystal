@@ -4,37 +4,37 @@ MoveDescriptions::
 	dw KarateChopDescription
 	dw DoubleslapDescription
 	dw CometPunchDescription
-	dw MegaPunchDescription
+	dw IceCrashDescription
 	dw PayDayDescription
 	dw FirePunchDescription
 	dw IcePunchDescription
 	dw ThunderpunchDescription
 	dw ScratchDescription
-	dw VicegripDescription
-	dw GuillotineDescription
-	dw RazorWindDescription
+	dw CrossPoisonDescription
+	dw DragonPulseDescription
+	dw XScissorDescription
 	dw SwordsDanceDescription
 	dw CutDescription
 	dw GustDescription
 	dw WingAttackDescription
 	dw WhirlwindDescription
 	dw FlyDescription
-	dw BindDescription
-	dw SlamDescription
+	dw FlashCannonDescription
+	dw DragonClawDescription
 	dw VineWhipDescription
 	dw StompDescription
 	dw DoubleKickDescription
-	dw MegaKickDescription
+	dw BugBuzzDescription
 	dw JumpKickDescription
 	dw RollingKickDescription
 	dw SandAttackDescription
 	dw HeadbuttDescription
 	dw HornAttackDescription
 	dw FuryAttackDescription
-	dw HornDrillDescription
+	dw FlareBlitzDescription
 	dw TackleDescription
 	dw BodySlamDescription
-	dw WrapDescription
+	dw IronHeadDescription
 	dw TakeDownDescription
 	dw ThrashDescription
 	dw DoubleEdgeDescription
@@ -81,15 +81,15 @@ MoveDescriptions::
 	dw SleepPowderDescription
 	dw PetalDanceDescription
 	dw StringShotDescription
-	dw DragonRageDescription
-	dw FireSpinDescription
+	dw AuraSphereDescription
+	dw AirSlashDescription
 	dw ThundershockDescription
 	dw ThunderboltDescription
 	dw ThunderWaveDescription
 	dw ThunderDescription
 	dw RockThrowDescription
 	dw EarthquakeDescription
-	dw FissureDescription
+	dw BraveBirdDescription
 	dw DigDescription
 	dw ToxicDescription
 	dw ConfusionDescription
@@ -115,8 +115,8 @@ MoveDescriptions::
 	dw LightScreenDescription
 	dw HazeDescription
 	dw ReflectDescription
-	dw FocusEnergyDescription
-	dw BideDescription
+	dw GunkShotDescription
+	dw BulletPunchDescription
 	dw MetronomeDescription
 	dw MirrorMoveDescription
 	dw SelfdestructDescription
@@ -129,7 +129,7 @@ MoveDescriptions::
 	dw WaterfallDescription
 	dw ClampDescription
 	dw SwiftDescription
-	dw SkullBashDescription
+	dw NastyPlotDescription
 	dw SpikeCannonDescription
 	dw ConstrictDescription
 	dw AmnesiaDescription
@@ -142,7 +142,7 @@ MoveDescriptions::
 	dw BarrageDescription
 	dw LeechLifeDescription
 	dw LovelyKissDescription
-	dw SkyAttackDescription
+	dw CalmMindDescription
 	dw TransformDescription
 	dw BubbleDescription
 	dw DizzyPunchDescription
@@ -174,7 +174,7 @@ MoveDescriptions::
 	dw FlameWheelDescription
 	dw SnoreDescription
 	dw CurseDescription
-	dw FlailDescription
+	dw DragonDanceDescription
 	dw Conversion2Description
 	dw AeroblastDescription
 	dw CottonSporeDescription
@@ -196,7 +196,7 @@ MoveDescriptions::
 	dw DestinyBondDescription
 	dw PerishSongDescription
 	dw IcyWindDescription
-	dw DetectDescription
+	dw DazzleGleamDescription
 	dw BoneRushDescription
 	dw LockOnDescription
 	dw OutrageDescription
@@ -217,7 +217,7 @@ MoveDescriptions::
 	dw HealBellDescription
 	dw ReturnDescription
 	dw PresentDescription
-	dw FrustrationDescription
+	dw EnergyBallDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
 	dw SacredFireDescription
@@ -232,7 +232,7 @@ MoveDescriptions::
 	dw SweetScentDescription
 	dw IronTailDescription
 	dw MetalClawDescription
-	dw VitalThrowDescription
+	dw PoisonJabDescription
 	dw MorningSunDescription
 	dw SynthesisDescription
 	dw MoonlightDescription
@@ -247,19 +247,16 @@ MoveDescriptions::
 	dw ExtremespeedDescription
 	dw AncientpowerDescription
 	dw ShadowBallDescription
-	dw FutureSightDescription
+	dw PowerWhipDescription
 	dw RockSmashDescription
 	dw WhirlpoolDescription
-	dw BeatUpDescription
-	dw MoveFCDescription
-	dw MoveFDDescription
-	dw MoveFEDescription
+	dw DarkPulseDescription
+	dw NightSlashDescription
+	dw PlayRoughDescription
+	dw DrainKissDescription
 	dw MoveFFDescription
 	dw Move00Description
 
-MoveFCDescription:
-MoveFDDescription:
-MoveFEDescription:
 MoveFFDescription:
 Move00Description:
 	db "?@"
@@ -280,9 +277,9 @@ CometPunchDescription:
 	db   "Repeatedly punches"
 	next "2-5 times.@"
 
-MegaPunchDescription:
-	db   "A powerful punch"
-	next "thrown very hard.@"
+IceCrashDescription:
+	db   "Hurls large chunks"
+	next "of ice at target.@"
 
 PayDayDescription:
 	db   "Throws coins. Gets"
@@ -304,17 +301,17 @@ ScratchDescription:
 	db   "Scratches with"
 	next "sharp claws.@"
 
-VicegripDescription:
-	db   "Grips with power-"
-	next "ful pincers.@"
+CrossPoisonDescription:
+	db   "High critical hit"
+	next "ratio. Can poison.@"
 
-GuillotineDescription:
-	db   "A one-hit KO,"
-	next "pincer attack.@"
+DragonPulseDescription:
+	db   "Creates a shock-"
+	next "wave with mouth.@"
 
-RazorWindDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+XScissorDescription:
+	db   "Slashes with claws"
+	next "like scissors.@"
 
 SwordsDanceDescription:
 	db   "A dance that in-"
@@ -340,13 +337,15 @@ FlyDescription:
 	db   "1st turn: Fly"
 	next "2nd turn: Attack@"
 
-BindDescription:
-	db   "Binds the target"
-	next "for 2-5 turns.@"
+FlashCannonDescription:
+	; db   "Binds the target"
+	; next "for 2-5 turns.@"
+	db   "Energy blast that"
+	next "may lower Sp. Def.@"
 
-SlamDescription:
-	db   "Slams the foe with"
-	next "a tail, vine, etc.@"
+DragonClawDescription:
+	db   "Slashes the foe"
+	next "with sharp claws.@"
 
 VineWhipDescription:
 	db   "Whips the foe with"
@@ -360,7 +359,7 @@ DoubleKickDescription:
 	db   "A double kicking"
 	next "attack.@"
 
-MegaKickDescription:
+BugBuzzDescription:
 	db   "A powerful kicking"
 	next "attack.@"
 
@@ -388,9 +387,10 @@ FuryAttackDescription:
 	db   "Jabs the target"
 	next "2-5 times.@"
 
-HornDrillDescription:
+FlareBlitzDescription:
 	db   "A one-hit KO,"
 	next "drill attack.@"
+	
 
 TackleDescription:
 	db   "A full-body charge"
@@ -400,7 +400,7 @@ BodySlamDescription:
 	db   "An attack that may"
 	next "cause paralysis.@"
 
-WrapDescription:
+IronHeadDescription:
 	db   "Squeezes the foe"
 	next "for 2-5 turns.@"
 
@@ -588,11 +588,11 @@ StringShotDescription:
 	db   "A move that lowers"
 	next "the foe's SPEED.@"
 
-DragonRageDescription:
+AuraSphereDescription:
 	db   "Always inflicts"
 	next "40HP damage.@"
 
-FireSpinDescription:
+AirSlashDescription:
 	db   "Traps foe in fire"
 	next "for 2-5 turns.@"
 
@@ -620,7 +620,7 @@ EarthquakeDescription:
 	db   "Tough but useless"
 	next "vs. flying foes.@"
 
-FissureDescription:
+BraveBirdDescription:
 	db   "A ground-type,"
 	next "one-hit KO attack.@"
 
@@ -724,11 +724,15 @@ ReflectDescription:
 	db   "Raises DEFENSE"
 	next "with a barrier.@"
 
-FocusEnergyDescription:
+GunkShotDescription:
 	db   "Raises the criti-"
 	next "cal hit ratio.@"
 
-BideDescription:
+; BideDescription:
+	; db   "Waits 2-3 turns &"
+	; next "hits back double.@"
+	
+BulletPunchDescription:
 	db   "Waits 2-3 turns &"
 	next "hits back double.@"
 
@@ -780,7 +784,7 @@ SwiftDescription:
 	db   "An attack that"
 	next "never misses.@"
 
-SkullBashDescription:
+NastyPlotDescription:
 	db   "1st turn: Prepare"
 	next "2nd turn: Attack@"
 
@@ -832,7 +836,7 @@ LovelyKissDescription:
 	db   "May cause the foe"
 	next "to fall asleep.@"
 
-SkyAttackDescription:
+CalmMindDescription:
 	db   "1st turn: Prepare"
 	next "2nd turn: Attack@"
 
@@ -960,7 +964,7 @@ CurseDescription:
 	db   "Works differently"
 	next "for ghost-types.@"
 
-FlailDescription:
+DragonDanceDescription:
 	db   "Stronger if the"
 	next "user's HP is low.@"
 
@@ -1048,7 +1052,7 @@ IcyWindDescription:
 	db   "An icy attack that"
 	next "lowers SPEED.@"
 
-DetectDescription:
+DazzleGleamDescription:
 	db   "Evades attack that"
 	next "turn. It may fail.@"
 
@@ -1132,7 +1136,7 @@ PresentDescription:
 	db   "A bomb that may"
 	next "restore HP.@"
 
-FrustrationDescription:
+EnergyBallDescription:
 	db   "An attack based on"
 	next "lack of loyalty.@"
 
@@ -1192,7 +1196,7 @@ MetalClawDescription:
 	db   "An attack that may"
 	next "up user's ATTACK.@"
 
-VitalThrowDescription:
+PoisonJabDescription:
 	db   "A 2nd-strike move"
 	next "that never misses.@"
 
@@ -1252,7 +1256,7 @@ ShadowBallDescription:
 	db   "An attack that may"
 	next "lower SPCL.DEF.@"
 
-FutureSightDescription:
+PowerWhipDescription:
 	db   "An attack that"
 	next "hits on 3rd turn.@"
 
@@ -1264,6 +1268,19 @@ WhirlpoolDescription:
 	db   "Traps the foe for"
 	next "2-5 turns.@"
 
-BeatUpDescription:
+DarkPulseDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+NightSlashDescription:
+        db   "Party #MON join"
+        next "in the attack.@"
+
+PlayRoughDescription:
+        db   "Party #MON join"
+        next "in the attack.@"
+
+DrainKissDescription:
+        db   "Party #MON join"
+        next "in the attack.@"
+

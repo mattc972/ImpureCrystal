@@ -179,3 +179,6 @@ BattleCommandPointers:
 	dw BattleCommand_SuperEffectiveLoopText
 	dw BattleCommand_StartLoop
 	dw BattleCommand_Curl
+	dw BattleCommand_DragonDance
+	dw BattleCommand_BrickBreak
+	dw BattleCommand_CalmMind

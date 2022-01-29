@@ -2602,7 +2602,7 @@ AI_Smart_FutureSight:
 ; Greatly encourage this move if the player is
 ; flying or underground, and slower than the enemy.
 
-	call AICompareSpeed
+ 	call AICompareSpeed
 	ret nc
 
 	ld a, [wPlayerSubStatus3]

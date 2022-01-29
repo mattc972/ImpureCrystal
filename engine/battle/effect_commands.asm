@@ -182,8 +182,6 @@ CheckPlayerTurn:
 
 	; Snore and Sleep Talk bypass sleep.
 	ld a, [wCurPlayerMove]
-	cp SNORE
-	jr z, .not_asleep
 	cp SLEEP_TALK
 	jr z, .not_asleep
 
@@ -410,8 +408,6 @@ CheckEnemyTurn:
 .fast_asleep
 	; Snore and Sleep Talk bypass sleep.
 	ld a, [wCurEnemyMove]
-	cp SNORE
-	jr z, .not_asleep
 	cp SLEEP_TALK
 	jr z, .not_asleep
 	call CantMove
@@ -919,8 +915,6 @@ IgnoreSleepOnly:
 	call GetBattleVar
 
 	; Snore and Sleep Talk bypass sleep.
-	cp SNORE
-	jr z, .CheckSleep
 	cp SLEEP_TALK
 	jr z, .CheckSleep
 	and a
@@ -1675,8 +1669,8 @@ BattleCommand_CheckHit:
 	ret
 
 .LockOn:
-; Return nz if we are locked-on and aren't trying to use Earthquake,
-; Fissure or Magnitude on a monster that is flying.
+; Return nz if we are locked-on and aren't trying to use Earthquake
+; or Magnitude on a monster that is flying.
 	ld a, BATTLE_VARS_SUBSTATUS5_OPP
 	call GetBattleVarAddr
 	bit SUBSTATUS_LOCK_ON, [hl]
@@ -1692,8 +1686,6 @@ BattleCommand_CheckHit:
 	call GetBattleVar
 
 	cp EARTHQUAKE
-	ret z
-	cp FISSURE
 	ret z
 	cp MAGNITUDE
 	ret z
@@ -1750,8 +1742,6 @@ BattleCommand_CheckHit:
 	call GetBattleVar
 
 	cp EARTHQUAKE
-	ret z
-	cp FISSURE
 	ret z
 	cp MAGNITUDE
 	ret
@@ -5649,21 +5639,21 @@ BattleCommand_Charge:
 	text_asm
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
-	cp RAZOR_WIND
-	ld hl, .BattleMadeWhirlwindText
-	jr z, .done
+	; cp RAZOR_WIND
+	; ld hl, .BattleMadeWhirlwindText
+	; jr z, .done
 
 	cp SOLARBEAM
 	ld hl, .BattleTookSunlightText
 	jr z, .done
 
-	cp SKULL_BASH
-	ld hl, .BattleLoweredHeadText
-	jr z, .done
+	; cp SKULL_BASH
+	; ld hl, .BattleLoweredHeadText
+	; jr z, .done
 
-	cp SKY_ATTACK
-	ld hl, .BattleGlowingText
-	jr z, .done
+	; cp SKY_ATTACK
+	; ld hl, .BattleGlowingText
+	; jr z, .done
 
 	cp FLY
 	ld hl, .BattleFlewText
@@ -5753,10 +5743,10 @@ BattleCommand_TrapTarget:
 	jp StdBattleTextbox
 
 .Traps:
-	dbw BIND,      UsedBindText      ; 'used BIND on'
-	dbw WRAP,      WrappedByText     ; 'was WRAPPED by'
-	dbw FIRE_SPIN, FireSpinTrapText  ; 'was trapped!'
-	dbw CLAMP,     ClampedByText     ; 'was CLAMPED by'
+	; dbw BIND,      UsedBindText      ; 'used BIND on'
+	; dbw WRAP,      WrappedByText     ; 'was WRAPPED by'
+	; dbw FIRE_SPIN, FireSpinTrapText  ; 'was trapped!'
+	; dbw CLAMP,     ClampedByText     ; 'was CLAMPED by'
 	dbw WHIRLPOOL, WhirlpoolTrapText ; 'was trapped!'
 
 INCLUDE "engine/battle/move_effects/mist.asm"
@@ -6064,6 +6054,10 @@ EndRechargeOpp:
 	ret
 
 INCLUDE "engine/battle/move_effects/rage.asm"
+
+INCLUDE "engine/battle/move_effects/dragon_dance.asm"
+INCLUDE "engine/battle/move_effects/brick_break.asm"
+INCLUDE "engine/battle/move_effects/calm_mind.asm"
 
 BattleCommand_DoubleFlyingDamage:
 ; doubleflyingdamage

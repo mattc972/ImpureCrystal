@@ -2075,3 +2075,38 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+
+DragonDance:
+	checkobedience
+	usedmovetext
+	doturn
+	dragondance
+	endmove
+
+BrickBreak:
+	checkobedience
+        usedmovetext
+        doturn
+        critical
+        damagestats
+        damagecalc
+        stab
+        damagevariation
+        checkhit
+        moveanim
+        failuretext
+        applydamage
+        criticaltext
+        supereffectivetext
+        brickbreak
+        checkfaint
+        buildopponentrage
+        kingsrock
+        endmove
+
+CalmMind:
+        checkobedience
+        usedmovetext
+        doturn
+        calmmind
+        endmove

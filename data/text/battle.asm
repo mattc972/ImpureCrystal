@@ -952,8 +952,10 @@ StoleText:
 	prompt
 
 CantEscapeNowText:
-	text "<TARGET>"
-	line "can't escape now!"
+	;text "<TARGET>"
+	;line "can't escape now!"
+	text "THERE IS"
+	line "NO ESCAPE!"
 	prompt
 
 StartedNightmareText:
@@ -1106,3 +1108,15 @@ BattleText_0x8188e:
 	text "There is no time"
 	line "left today!"
 	done
+
+BrokeLightScreenText:
+	text "<USER>"
+	line "broke the target's"
+	cont "Light Screen!"
+	prompt
+
+BrokeReflectText:
+	text "<USER>"
+	line "broke the target's"
+	cont "Reflect!"
+	prompt

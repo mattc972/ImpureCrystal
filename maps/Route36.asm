@@ -496,7 +496,8 @@ UnusedReceivedTM08Text:
 
 RockSmashGuyText3:
 	text "That happens to be"
-	line "ROCK SMASH."
+	; line "ROCK SMASH."
+	line "BRICK BREAK."
 
 	para "You can shatter"
 	line "rocks with just a"

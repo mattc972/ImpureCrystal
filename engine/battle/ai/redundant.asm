@@ -175,9 +175,9 @@ AI_Redundant:
 	bit SUBSTATUS_CONFUSED, a
 	ret
 
-.FutureSight:
-	ld a, [wEnemyScreens]
-	bit 5, a
+ .FutureSight:
+ 	ld a, [wEnemyScreens]
+ 	bit 5, a
 	ret
 
 .Heal:

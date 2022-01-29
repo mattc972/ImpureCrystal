@@ -253,7 +253,8 @@ CianwoodCityPokefanMText:
 	line "something."
 
 	para "Your #MON could"
-	line "use ROCK SMASH to"
+	; line "use ROCK SMASH to"
+	line "use BRICK BREAK to"
 	cont "break them."
 	done
 

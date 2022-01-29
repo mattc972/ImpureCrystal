@@ -827,7 +827,7 @@ GetMovePriority:
 	ld b, a
 
 	; Vital Throw goes last.
-	cp VITAL_THROW
+	cp SPLASH
 	ld a, 0
 	ret z
 
@@ -1494,7 +1494,7 @@ HandleFutureSight:
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVarAddr
 	push af
-	ld a, FUTURE_SIGHT
+	; ld a, FUTURE_SIGHT
 	ld [hl], a
 
 	callfar UpdateMoveData
