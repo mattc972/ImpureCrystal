@@ -1,4 +1,4 @@
-GetMoveCategoryName
+GetMoveCategoryName:
 ; Copy the category name of move b to wStringBuffer1.
 
     ld a, b

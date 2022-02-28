@@ -443,7 +443,7 @@ NidoranMEvosAttacks:
 	db 17, POISON_STING
 	db 23, SLASH
 	db 30, FURY_ATTACK
-	db 38, FLASH_CANNON ; REPLACE WITH POISON JAB
+	db 38, POISON_JAB
 	db 0 ; no more level-up moves
 
 NidorinoEvosAttacks:
@@ -456,7 +456,7 @@ NidorinoEvosAttacks:
 	db 19, POISON_STING
 	db 27, SLASH
 	db 36, FURY_ATTACK
-	db 46, FLASH_CANNON ; REPLACE WITH POISON JAB
+	db 46, POISON_JAB
 	db 0 ; no more level-up moves
 
 NidokingEvosAttacks:
@@ -668,7 +668,7 @@ DiglettEvosAttacks:
 	db 25, SAND_ATTACK
 	db 33, SLASH
 	db 41, EARTHQUAKE
-	db 49, EARTH_POWER ; Replace with Earth Power
+	db 49, EARTH_POWER
 	db 0 ; no more level-up moves
 
 DugtrioEvosAttacks:
@@ -683,7 +683,7 @@ DugtrioEvosAttacks:
 	db 25, SAND_ATTACK
 	db 37, SLASH
 	db 49, EARTHQUAKE
-	db 61, EARTH_POWER ; Replace with Earth Power
+	db 61, EARTH_POWER
 	db 0 ; no more level-up moves
 
 MeowthEvosAttacks:
@@ -850,7 +850,7 @@ KadabraEvosAttacks:
 	db 18, DISABLE
 	db 21, PSYBEAM
 	db 26, RECOVER
-	db 31, DRAGON_PULSE ; CALM_MIND
+	db 31, CALM_MIND
 	db 38, PSYCHIC_M
 	db 45, REFLECT
 	db 0 ; no more level-up moves
@@ -864,7 +864,7 @@ AlakazamEvosAttacks:
 	db 18, DISABLE
 	db 21, PSYBEAM
 	db 26, RECOVER
-	db 31, DRAGON_PULSE ; CALM_MIND
+	db 31, CALM_MIND
 	db 38, PSYCHIC_M
 	db 45, REFLECT
 	db 0 ; no more level-up moves
@@ -1306,7 +1306,7 @@ DrowzeeEvosAttacks:
 	db 36, MEDITATE
 	db 40, PSYCHIC_M
 	db 43, PSYCH_UP
-	db 45, DRAGON_PULSE ; CALM_MIND
+	db 45, CALM_MIND
 	db 0 ; no more level-up moves
 
 HypnoEvosAttacks:
@@ -1322,7 +1322,7 @@ HypnoEvosAttacks:
 	db 40, MEDITATE
 	db 49, PSYCHIC_M
 	db 55, PSYCH_UP
-	db 60, DRAGON_PULSE ; CALM_MIND
+	db 60, CALM_MIND
 	db 0 ; no more level-up moves
 
 KrabbyEvosAttacks:
@@ -1402,7 +1402,7 @@ ExeggutorEvosAttacks:
 	db 1, HYPNOSIS
 	db 1, CONFUSION
 	db 19, STOMP
-	db 31, SEED_BOMB ; REPLACE WITH SEED BOMB
+	db 31, SEED_BOMB
 	db 0 ; no more level-up moves
 
 CuboneEvosAttacks:
@@ -1463,9 +1463,8 @@ HitmonchanEvosAttacks:
 	db 26, ICE_PUNCH
 	db 26, FIRE_PUNCH
 	db 32, MACH_PUNCH
-	; db 38, MEGA_PUNCH
 	db 38, BULLET_PUNCH
-	; db 44, DETECT
+	db 44, DIZZY_PUNCH
 	db 50, COUNTER
 	db 0 ; no more level-up moves
 
@@ -1540,18 +1539,17 @@ RhydonEvosAttacks:
 ChanseyEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, BLISSEY
 	db 0 ; no more evolutions
-	; db 1, POUND
-	; db 5, GROWL
-	; db 9, TAIL_WHIP
-	; db 13, SOFTBOILED
-	; db 17, DOUBLESLAP
-	; db 23, MINIMIZE
-	; db 29, SING
-	; db 35, SEISMIC_TOSS
-	; db 41, DEFENSE_CURL
-	; db 49, LIGHT_SCREEN
-	db 49, REFLECT
-	; db 57, DOUBLE_EDGE
+	db 1, POUND
+	db 5, GROWL
+	db 9, TAIL_WHIP
+	db 13, SOFTBOILED
+	db 17, DOUBLESLAP
+	db 23, MINIMIZE
+	db 29, SING
+	db 35, SEISMIC_TOSS
+	db 41, DEFENSE_CURL
+	db 49, LIGHT_SCREEN
+	db 57, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 TangelaEvosAttacks:
@@ -1575,7 +1573,6 @@ KangaskhanEvosAttacks:
 	db 13, BITE
 	db 19, TAIL_WHIP
 	db 25, MAGNITUDE
-	; db 25, MEGA_PUNCH
 	db 31, RAGE
 	db 37, ENDURE
 	db 43, DIZZY_PUNCH
@@ -1973,7 +1970,7 @@ ZapdosEvosAttacks:
 	db 1, THUNDERSHOCK
 	db 13, THUNDER_WAVE
 	db 25, AGILITY
-	; db 37, DETECT
+	db 37, SPARK
 	db 49, DRILL_PECK
 	db 61, LIGHT_SCREEN
 	db 73, THUNDER
@@ -2047,7 +2044,7 @@ MewtwoEvosAttacks:
 	db 11, BARRIER
 	db 22, SWIFT
 	db 33, PSYCH_UP
-	db 44, DRAGON_PULSE ; CALM_MIND
+	db 44, CALM_MIND
 	db 55, MIST
 	db 66, PSYCHIC_M
 	db 77, AMNESIA
@@ -2060,7 +2057,6 @@ MewEvosAttacks:
 	db 1, POUND
 	db 10, TRANSFORM
 	db 20, CRUNCH
-	; db 20, MEGA_PUNCH
 	db 30, METRONOME
 	db 40, PSYCHIC_M
 	db 50, ANCIENTPOWER
@@ -2119,6 +2115,7 @@ CyndaquilEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
+	db 5, AQUA_TAIL
 	db 6, SMOKESCREEN
 	db 12, EMBER
 	db 19, QUICK_ATTACK
@@ -2415,7 +2412,7 @@ NatuEvosAttacks:
 	db 1, LEER
 	db 10, NIGHT_SHADE
 	db 20, TELEPORT
-	db 30, DRAGON_PULSE ; CALM_MIND
+	db 30, CALM_MIND
 	db 40, CONFUSE_RAY
 	db 50, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -2427,7 +2424,7 @@ XatuEvosAttacks:
 	db 1, NIGHT_SHADE
 	db 10, NIGHT_SHADE
 	db 20, TELEPORT
-	db 35, DRAGON_PULSE ; CALM_MIND
+	db 35, CALM_MIND
 	db 50, CONFUSE_RAY
 	db 65, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -2620,9 +2617,9 @@ YanmaEvosAttacks:
 	db 7, QUICK_ATTACK
 	db 13, DOUBLE_TEAM
 	db 19, BITE
-	; db 25, DETECT
+	db 25, WING_ATTACK
 	db 31, SUPERSONIC
-	db 37, WING_ATTACK
+	db 37, AIR_SLASH
 	db 43, SCREECH
 	db 0 ; no more level-up moves
 
@@ -2751,7 +2748,6 @@ PinecoEvosAttacks:
 	db 8, SELFDESTRUCT
 	db 15, TAKE_DOWN
 	db 22, RAPID_SPIN
-	;db 29, BIDE
 	db 29, PIN_MISSILE
 	db 36, EXPLOSION
 	db 43, SPIKES
@@ -2766,7 +2762,6 @@ ForretressEvosAttacks:
 	db 8, SELFDESTRUCT
 	db 15, TAKE_DOWN
 	db 22, RAPID_SPIN
-	; db 29, BIDE
 	db 29, PIN_MISSILE
 	db 39, EXPLOSION
 	db 49, SPIKES
@@ -2793,7 +2788,7 @@ GligarEvosAttacks:
 	db 28, FAINT_ATTACK
 	db 36, SLASH
 	db 44, SCREECH
-	db 52, X_SCISSOR ; REPLACE WITH X_SCISSOR
+	db 52, X_SCISSOR
 	db 0 ; no more level-up moves
 
 SteelixEvosAttacks:
@@ -2854,10 +2849,7 @@ ScizorEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, LEER
 	db 1, BULLET_PUNCH
-	db 6, DRAGON_CLAW
-	db 6, FLASH_CANNON
-	db 6, FLARE_BLITZ
-	db 6, BUG_BUZZ
+	db 1, FURY_CUTTER
 	db 12, PURSUIT
 	db 18, FALSE_SWIPE
 	db 24, AGILITY
@@ -2874,7 +2866,6 @@ ShuckleEvosAttacks:
 	db 9, CURSE
 	db 14, ENCORE
 	db 23, SAFEGUARD
-	; db 28, BIDE
 	db 28, ROLLOUT
 	db 37, REST
 	db 0 ; no more level-up moves
@@ -3175,7 +3166,7 @@ HitmontopEvosAttacks:
 	db 25, RAPID_SPIN
 	db 31, COUNTER
 	db 37, AGILITY
-	; db 43, DETECT
+	db 43, FLAME_WHEEL
 	db 49, TRIPLE_KICK
 	db 0 ; no more level-up moves
 
@@ -3228,7 +3219,6 @@ MiltankEvosAttacks:
 	db 8, DEFENSE_CURL
 	db 13, STOMP
 	db 19, MILK_DRINK
-	; db 26, BIDE
 	db 26, MAGNITUDE
 	db 34, ROLLOUT
 	db 43, BODY_SLAM
@@ -3348,7 +3338,7 @@ LugiaEvosAttacks:
 	db 66, SWIFT
 	db 77, WHIRLWIND
 	db 88, ANCIENTPOWER
-	db 99, DRAGON_PULSE ; CALM_MIND
+	db 99, CALM_MIND
 	db 0 ; no more level-up moves
 
 HoOhEvosAttacks:
@@ -3362,7 +3352,7 @@ HoOhEvosAttacks:
 	db 66, SWIFT
 	db 77, WHIRLWIND
 	db 88, ANCIENTPOWER
-	db 99, DRAGON_PULSE ; CALM_MIND
+	db 99, CALM_MIND
 	db 0 ; no more level-up moves
 
 CelebiEvosAttacks:
@@ -3373,7 +3363,7 @@ CelebiEvosAttacks:
 	db 1, HEAL_BELL
 	db 10, SAFEGUARD
 	db 20, ANCIENTPOWER
-	db 30, DRAGON_PULSE ; CALM_MIND
+	db 30, CALM_MIND
 	db 40, BATON_PASS
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves

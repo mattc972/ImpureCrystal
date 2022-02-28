@@ -772,8 +772,8 @@ StatsScreen_LoadGFX:
 
 .OrangePage:
     call TN_PrintToD
-	call TN_PrintLocation
-	call TN_PrintLV
+    call TN_PrintLocation
+    call TN_PrintLV
     call OP_PrintDivider
     call TN_PrintDVs
     
@@ -787,7 +787,7 @@ OP_PrintDivider:
     jr nz, .loop
     ret
 
-TN_PrintToD
+TN_PrintToD:
 	ld de, .caughtat
 	hlcoord 1, 8
 	call PlaceString

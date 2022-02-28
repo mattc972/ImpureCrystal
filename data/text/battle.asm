@@ -873,7 +873,7 @@ TransformedText:
 
 LightScreenEffectText:
 	text "<USER>'s"
-	line "SPCL.DEF rose!"
+	line "SPC.DEF rose!"
 	prompt
 
 ReflectEffectText:
@@ -952,8 +952,6 @@ StoleText:
 	prompt
 
 CantEscapeNowText:
-	;text "<TARGET>"
-	;line "can't escape now!"
 	text "THERE IS"
 	line "NO ESCAPE!"
 	prompt
