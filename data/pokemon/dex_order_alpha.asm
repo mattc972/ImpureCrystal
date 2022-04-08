@@ -123,6 +123,7 @@ AlphabeticalPokedexOrder:
 	db MAGMAR
 	db MAGNEMITE
 	db MAGNETON
+	db MAMOSWINE
 	db MANKEY
 	db MANTINE
 	db MAREEP
@@ -250,5 +251,6 @@ AlphabeticalPokedexOrder:
 	db WOOPER
 	db XATU
 	db YANMA
+	db YANMEGA
 	db ZAPDOS
 	db ZUBAT

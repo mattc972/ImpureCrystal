@@ -102,6 +102,7 @@ NewPokedexOrder:
 	db NIDORINO
 	db NIDOKING
 	db YANMA
+	db YANMEGA
 	db SUNKERN
 	db SUNFLORA
 	db EXEGGCUTE
@@ -193,6 +194,7 @@ NewPokedexOrder:
 	db DELIBIRD
 	db SWINUB
 	db PILOSWINE
+	db MAMOSWINE
 	db TEDDIURSA
 	db URSARING
 	db PHANPY

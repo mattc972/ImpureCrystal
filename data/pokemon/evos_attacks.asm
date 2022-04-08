@@ -2646,6 +2646,7 @@ SunfloraEvosAttacks:
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
+	db EVOLVE_LEVEL, 33, YANMEGA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, FORESIGHT
@@ -3003,6 +3004,7 @@ SwinubEvosAttacks:
 	db 0 ; no more level-up moves
 
 PiloswineEvosAttacks:
+	db EVOLVE_LEVEL, 42, MAMOSWINE
 	db 0 ; no more evolutions
 	db 1, ICE_CRASH
 	db 1, HORN_ATTACK
@@ -3406,3 +3408,34 @@ CelebiEvosAttacks:
 	db 40, BATON_PASS
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
+
+MamoswineEvosAttacks:
+        db 0 ; no more evolutions
+        db 1, ICE_CRASH
+        db 1, HORN_ATTACK
+        db 1, POWDER_SNOW
+        db 1, ENDURE
+        db 10, POWDER_SNOW
+        db 19, ENDURE
+        db 28, TAKE_DOWN
+        db 32, FURY_ATTACK
+	db 41, ANCIENTPOWER
+        db 42, MIST
+        db 56, BLIZZARD
+        db 70, AMNESIA
+        db 0 ; no more level-up moves
+
+YanmegaEvosAttacks:
+        db 0 ; no more evolutions
+        db 1, TACKLE
+        db 1, FORESIGHT
+        db 7, QUICK_ATTACK
+        db 13, DOUBLE_TEAM
+        db 19, BITE
+        db 25, WING_ATTACK
+        db 31, SUPERSONIC
+	db 32, ANCIENTPOWER
+        db 37, AIR_SLASH
+        db 43, SCREECH
+        db 0 ; no more level-up moves
+

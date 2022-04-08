@@ -251,3 +251,6 @@ PokedexDataPointerTable:
 	dw LugiaPokedexEntry
 	dw HoOhPokedexEntry
 	dw CelebiPokedexEntry
+	dw MamoswinePokedexEntry
+	dw YanmegaPokedexEntry
+	
