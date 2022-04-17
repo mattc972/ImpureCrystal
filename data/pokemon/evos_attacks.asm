@@ -1220,11 +1220,11 @@ MukEvosAttacks:
 	db 1, POISON_GAS
 	db 1, POUND
 	db 1, HARDEN
+	db 23, MINIMIZE
+	db 31, SCREECH
 	db 33, HARDEN
 	db 37, DISABLE
 	db 45, SLUDGE
-	db 23, MINIMIZE
-	db 31, SCREECH
 	db 45, ACID_ARMOR
 	db 60, SLUDGE_BOMB
 	db 0 ; no more level-up moves
@@ -1350,7 +1350,7 @@ KrabbyEvosAttacks:
 	db 12, BITE
 	db 16, HARDEN
 	db 23, STOMP
-	db 27, CRUNCH
+	db 27, SLASH
 	db 34, PROTECT
 	db 41, CRABHAMMER
 	db 0 ; no more level-up moves
@@ -1786,7 +1786,7 @@ MagikarpEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SPLASH
 	db 15, TACKLE
-	db 30, HEADBUTT
+	db 30, FLY
 	db 0 ; no more level-up moves
 
 GyaradosEvosAttacks:
