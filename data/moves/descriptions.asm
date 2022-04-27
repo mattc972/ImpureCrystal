@@ -529,10 +529,8 @@ DrillPeckDescription:
 	next "ning-peck attack.@"
 
 FocusBlastDescription:
-	; db   "An attack that al-"
-	; next "so hurts the user.@"
-	db   "Hits less often"
-	next "than Horn Drill.@"
+	db   "An attack that may"
+	next "lower SPC.DEF.@"
 
 LowKickDescription:
 	db   "An attack that may"

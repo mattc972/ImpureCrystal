@@ -2140,7 +2140,6 @@ CyndaquilEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
-	db 5, AQUA_TAIL
 	db 6, SMOKESCREEN
 	db 12, EMBER
 	db 19, QUICK_ATTACK
@@ -2386,10 +2385,12 @@ PichuEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
-	db 1, CHARM
-	db 6, TAIL_WHIP
+	db 1, TAIL_WHIP
+	db 4, SWEET_KISS
 	db 8, THUNDER_WAVE
-	db 11, SWEET_KISS
+	db 12, DRAIN_KISS
+	db 16, CHARM
+	db 20, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 CleffaEvosAttacks:
