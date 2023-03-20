@@ -1,4 +1,4 @@
-Impure Crystal (name not final) is a Crystal Hack with many changes to the original game. Such changes include Running Shoes, Infinite TMs, Physical/Special Split, and many more.
+Impure Crystal (name not final) is a Crystal Hack with many changes to the original game. Such changes include Running Shoes, Infinite TMs, and the Physical/Special Split.
 
 Future Decisions that I'll probably forget about if I don't put them here:
 
