@@ -11,4 +11,4 @@ Lovely Kiss -> Give more access to the move\
 Whirlpool -> Wild Charge (Also need to make Field Item)\
 Zen Headbutt -> Cross Poison (?)\
 Bulldoze?\
-Roost, or give Recover to certain Pokemon (?)\
+Roost, or give Recover to certain Pokemon (?)
